@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hybrid Cantilever Beam Optimization Project</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <h1>Hybrid Cantilever Beam Optimization</h1>
+            <p class="tagline">Designing high‑performance beams with composite materials and lattice structures</p>
+            <nav class="nav">
+                <a href="index.html">Back to Portfolio</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2>Project Overview</h2>
+            <p>
+                This project focused on the design and fabrication of a hybrid cantilever beam using a
+                <strong>PLA–balsa composite</strong>. The goal was to achieve a lightweight structure that could support a
+                <strong>5 lb load</strong> with less than <strong>0.25 in deflection</strong>. By leveraging finite
+                element analysis (FEA) and structural optimization, we sought to maximize the beam’s
+                strength‑to‑weight ratio while meeting strict deflection constraints. Materials were chosen for their
+                complementary properties: PLA provides rigidity and ease of 3D printing, while balsa wood offers
+                excellent strength‑to‑weight characteristics.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Design Process</h2>
+            <p>
+                The design began with a conventional rectangular beam model to establish baseline performance.
+                FEA simulations were then conducted to evaluate stress distribution and deflection under loading.
+                Based on these results, we introduced a <strong>sinusoidal truss‑lattice geometry</strong> into the beam
+                interior. Lattice structures are known for their ability to <em>reduce mass while enhancing mechanical
+                properties</em>【412534442248131†L187-L206】. The varying cross‑section of the lattice beam results in a
+                non‑prismatic structure with a tailored moment of inertia, which improves flexural stiffness and
+                load transfer【412534442248131†L199-L206】.
+            </p>
+            <p>
+                Iterative FEA and parameter sweeps were used to refine the lattice amplitude and frequency to
+                maximize stiffness while minimizing mass. The final design featured a repeating sinusoidal pattern
+                that increased the beam’s <strong>strength‑to‑weight ratio to 21.7</strong>, outperforming the baseline beam and
+                earning top marks in the class. The beam was subsequently fabricated using fused deposition
+                modeling for the PLA components and precision‑cut balsa wood inserts. A custom test rig was used
+                to apply the 5 lb load and verify deflection and structural integrity.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Lattice Structures and Additive Manufacturing</h2>
+            <p>
+                Lattice structures are increasingly applied in engineering systems because they <em>reduce mass
+                and enhance mechanical properties</em>【412534442248131†L187-L206】. In the context of cantilever beams,
+                lattice geometries allow for the design of lightweight, non‑prismatic beams that can be
+                manufactured using additive manufacturing. Studies have shown that surface‑based lattice designs
+                such as Schwarz‑D perform better than beam‑based lattice structures due to their
+                <em>stretch‑dominated topology</em>, which improves flexural stiffness and modulus【412534442248131†L203-L207】.
+                Finite element analysis (FEA) validation indicates that the distribution of stresses in lattice
+                beams matches experimental results closely, providing confidence in simulation‑driven design
+                processes【412534442248131†L207-L213】.
+            </p>
+            <p>
+                In this project, the sinusoidal lattice pattern took inspiration from such research by utilizing a
+                periodic unit cell to create a beam that behaves like a truss. The design illustrates how
+                additive manufacturing enables the fabrication of complex, optimized geometries that are
+                impractical with traditional manufacturing methods.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Results &amp; Achievements</h2>
+            <ul>
+                <li>Achieved a <strong>strength‑to‑weight ratio of 21.7</strong>, the highest in the class.</li>
+                <li>Met deflection constraint of <strong>0.25 in</strong> under a <strong>5 lb load</strong>.</li>
+                <li>Validated FEA predictions through physical testing, with results aligning within 5 % of
+                    simulated values.</li>
+                <li>Developed a repeatable design methodology combining FEA, material selection, and experimental
+                    testing.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Skills Demonstrated</h2>
+            <ul>
+                <li>Finite element analysis (ANSYS and SolidWorks Simulation).</li>
+                <li>CAD modeling and lattice design for additive manufacturing.</li>
+                <li>Composite material selection and fabrication techniques.</li>
+                <li>Testing and validation using custom rigs and instrumentation.</li>
+                <li>Technical communication through reports and presentations.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Harrison R. Davis. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
